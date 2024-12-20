@@ -7,7 +7,6 @@ class handDetector():
         self.maxHands = maxHands 
         self.detectionCon = detectionCon
         self.trackCon = trackCon
-
         self.mpHands = mp.solutions.hands
         self.hands = self.mpHands.Hands(
             static_image_mode=self.mode,
